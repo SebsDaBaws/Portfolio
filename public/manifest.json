@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Jyllands-Posten",
-  "short_name": "JP",
+  "name": "Sebastians Portfolio",
+  "short_name": "Seb Portfolio",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#fff",
-  "description": "Velkommen til Jyllands-Posten"
+  "description": "Sebastian Portfolio - Webudvikler"
 }

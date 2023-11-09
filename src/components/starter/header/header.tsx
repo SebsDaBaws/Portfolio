@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { JPLogo } from "../icons/jp_logo";
+import { SebLogo } from "../icons/jp_logo";
 
 export default component$(() => {
   return (
@@ -12,14 +12,14 @@ export default component$(() => {
 
         <div class="flex grow md:justify-center items-start">
           <a href="/">
-            <JPLogo class="h-5 md:h-10 lg:h-12"/>
+            <SebLogo class="h-5 md:h-10 lg:h-12"/>
           </a>
         </div>
 
         <ul class="flex flex-row text-right md:space-x-2 space-x-2 md:py-5 md:px-5 font-sans-serif font-medium text-xs">
           <li class="border-neutral-400 hidden md:block">
           <button
-              class="bg-transparent hover:bg-primary text-black hover:text-white py-1 px-2 border 
+              class="bg-transparent hover:bg-customBlue text-black hover:text-white py-1 px-2 border 
             border-black hover:border-transparent rounded uppercase tracking-widest"
             >
               <a href="/">Om mig</a>
@@ -28,15 +28,15 @@ export default component$(() => {
 
           <li>
             <button
-              class="bg-transparent hover:bg-secondary text-secondary hover:text-white py-1 px-2 border 
-            border-secondary hover:border-transparent rounded uppercase tracking-widest"
+              class="bg-transparent hover:bg-customBlue text-blue-700 hover:text-white py-1 px-2 border 
+            border-blue-700 hover:border-transparent rounded uppercase tracking-widest"
             >
               <a href="https://abonnement.jyllands-posten.dk/">Portfolio</a>
             </button>
           </li>
           <li>
             <button
-              class="bg-transparent hover:bg-primary text-black hover:text-white py-1 px-2 border 
+              class="bg-transparent hover:bg-customBlue text-black hover:text-white py-1 px-2 border 
             border-black hover:border-transparent rounded uppercase tracking-widest"
             >
               <a href="/">Kontakt</a>
@@ -46,7 +46,7 @@ export default component$(() => {
       </div>
 
       <div>
-        <hr class="h-1.5 my-4 bg-primary border-0" />
+        <hr class="h-1.5 my-4 bg-customBlue border-0" />
       </div>
     </header>
   );

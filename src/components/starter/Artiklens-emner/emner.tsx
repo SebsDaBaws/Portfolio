@@ -16,12 +16,14 @@ export default component$(() => {
     <main>
       <section class="md:grid md:grid-cols-12 md:divide-x md:divide-gray-400">
         <div class="md:col-span-3">
-          <div class="text-lg md:text-lg font-bold break-normal max-w-2xl px-4 md:px-6 justify-start uppercase text-primary">
+          <div class="text-lg md:text-lg font-bold break-normal max-w-2xl px-4 md:px-6 justify-start uppercase text-customBlue">
             <p class="flex flex-wrap gap-x-2 items-center sm:pb-2">
-              Artiklens emner
+              Portfolio
+             {/*<Starter 
               <a href="/">
                 <InfoButton />
               </a>
+              />*/}
             </p>
           </div>
 
@@ -46,7 +48,7 @@ export default component$(() => {
                 </a>
 
                 <button
-                  class="bg-white flex md:flex-row hover:bg-primary text-primary hover:text-white 
+                  class="bg-white flex md:flex-row hover:bg-customBlue text-black hover:text-white 
                 text-xs py-2 md:py-1 px-3 border border-secondary hover:border-transparent rounded uppercase tracking-widest no-underline"
                 >
                   Følg
@@ -59,11 +61,11 @@ export default component$(() => {
           </div>
           <div class="lg:px-10 py-4 text-center md:text-right">
             <a
-              class="bg-transparent hover:bg-secondary text-secondary hover:text-white md:py-1.5 md:px-10 py-2.5 px-16 border 
-            border-secondary hover:border-transparent rounded uppercase text-xs font-semibold"
+              class="bg-transparent hover:bg-customBlue text-black hover:text-white md:py-1.5 md:px-10 py-2.5 px-16 border 
+            border-customBlue hover:border-transparent rounded uppercase text-xs font-semibold"
               href="/pages/tag_page"
             >
-              Se de emner du følger
+              Se mere
             </a>
           </div>
         </ul>

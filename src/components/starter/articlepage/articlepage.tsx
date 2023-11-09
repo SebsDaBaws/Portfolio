@@ -39,16 +39,18 @@ export default component$(
     return (
       <main>
         <h1 class="justify-start uppercase flex px-2 lg:px-6 2xl:px-72 pb-6 font-semibold text-lg">
-          Indland
+          testheader
         </h1>
         <article class="container mx-auto">
           <section class="flex h-full flex-col items-center space-y-2">
             <div class="md:pb-1 text-xs self-start pt-8 pb-1 px-3.5 lg:pl-40 2xl:pl-72">
+              {/* 
               <time>12/03/2023 KL. 07:30 |</time>
               <nobr class="text-primary font-semibold uppercase">
                 {" "}
                 FOR ABONNENTER{" "}
               </nobr>
+              */}
             </div>
             <h1 class="text-4xl font-bold font-serif pt-1.5 md:pt-3 pb-3 px-3.5 self-start lg:pl-40 max-w-5xl 2xl:max-w-6xl 2xl:pl-72">
               {headline2}
@@ -58,7 +60,7 @@ export default component$(
             </h2>
             <div
               class={
-                "relative flex w-full overflow-hidden md:px-20 lg:px-40 2xl:pl-72"
+                "relative flex w-full overflow-hidden sm:px-10 md:px-10 lg:px-10 2xl:pl-10"
               }
             >
               {imageUrl !== null ? <img src={imageUrl} alt="" /> : null}
@@ -71,6 +73,7 @@ export default component$(
               <hr class="h-0.5 mt-4 bg-black border-2 mx-2 md:mx-0" />
             </div>
 
+            {/* 
             <ul class="self-start flex px-3.5 lg:pl-40 2xl:pl-72">
               {authors.map((author) => (
                 <li
@@ -90,10 +93,12 @@ export default component$(
                 </li>
               ))}
             </ul>
+            
 
             <div class="w-full">
               <hr class="h-0.5 my-2 bg-black border-2 mx-2 md:mx-0" />
             </div>
+            */}
 
             <div class="prose font-serif flex px-3.5">
               <p dangerouslySetInnerHTML={bodyText} />

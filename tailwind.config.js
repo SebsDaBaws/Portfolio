@@ -7,6 +7,7 @@ module.exports = {
         primary: "#006860",
         "primary-hover": "#003830",
         secondary: "#248a88",
+        customBlue: "#002557",
       },
     },
     fontFamily: {

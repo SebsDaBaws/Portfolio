@@ -9,12 +9,12 @@ export default component$(() => {
       <Articlepage
         id="15275559"
         headline="Forstandere taler om, at der er noget, forældrene har glemt"
-        headline2="Er det en ny slags curlingforældre, der ringer til landets efterskoler?"
-        teaser="Frafaldet er steget på landets efterskole, og forstandere fortæller, at en del af frafaldet skyldes, at forældre blander sig mere end for få år siden. Forsker ser dog en god forklaring på udviklingen."
-        imageUrl="https://billeder.jyllands-posten.dk/pictures/image/15313307/kfxrrl/ALTERNATES/h-free/efterskoler-kaemper-med-pyldrede-foraeldre"
-        caption="GI Akademiet i Hornsyld er en af de efterskoler, hvor man oplever, at både elever og forældre har forandret sig de seneste år.  Foto: Casper Dalhoff"
+        headline2="Velkommen til min portfolio"
+        teaser="this is good"
+        imageUrl="src/Pictures/SBH.jpg"
+        caption="test"
         bodyText={
-          '<p>Lets goo</p>\n'
+          '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n'
         }
         authors={[
           {
@@ -50,11 +50,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Jyllands-Posten - Nyheder til dig, der vil vide mere",
+  title: "Sebastian Bagger Hadi - Portfolio",
   meta: [
     {
       name: "description",
-      content: "Jyllands-Posten",
+      content: "Sebastian Bagger Hadi - Portfolio",
     },
   ],
 };
