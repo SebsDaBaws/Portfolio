@@ -2,8 +2,8 @@ import { component$ } from "@builder.io/qwik";
 import { InfoButton } from "../icons/info_button";
 
 const tags = [
-  { label: "Forældreskab", id: "https://jyllands-posten.dk/tags/emneord.jp.dk,2017:foraeldreskab" },
-  { label: "Familieliv", id: "https://jyllands-posten.dk/tags/emneord.jp.dk,2017:familieliv" },
+  { label: "GitHub", id: "https://github.com/SebsDaBaws" },
+  { label: "LinkedIn", id: "https://www.linkedin.com/in/sebastian-bagger-hadi/" },
   { label: "Efterskole", id: "https://jyllands-posten.dk/tags/emneord.jp.dk,2017:efterskole" },
   {
     label: "Børneopdragelse",
@@ -30,7 +30,7 @@ export default component$(() => {
           <div class="px-4 md:px-6 justify-start text-center md:text-left pb-0.5 md:pb-6"></div>
         </div>
 
-        <ul class="flex flex-col md:flex-col md:divide-y justify-end md:col-span-9">
+        <ul class="flex flex-col md:flex-col md:divide-y justify-end md:col-span-9 box-border">
           <ul class="flex flex-wrap flex-col sm:flex-row justify-center md:justify-start mx-2 md:mx-8">
             {tags.map((tag) => (
               <li
@@ -49,7 +49,7 @@ export default component$(() => {
 
                 <button
                   class="bg-white flex md:flex-row hover:bg-customBlue text-black hover:text-white 
-                text-xs py-2 md:py-1 px-3 border border-secondary hover:border-transparent rounded uppercase tracking-widest no-underline"
+                text-xs py-2 md:py-1 px-3 border border-customBlue hover:border-transparent rounded uppercase tracking-widest no-underline"
                 >
                   Følg
                 </button>

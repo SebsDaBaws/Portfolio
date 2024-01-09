@@ -10,7 +10,7 @@ export default component$(() => {
     <footer class="mt-6 w-full block bg-customBlue text-white">
       <div class="container mx-auto flex flex-col items-center py-6">
         <a
-          class="px-4 pl-14 pt-2 pb-6 inline-block justify-center place-content-center sm:pl-20 md:pl-24"
+          class="px-4 pl-14 pt-2 pb-6 inline-block justify-center place-content-center sm:pl-20 md:pl-24 "
           href="/"
           title="logo"
           style="#FFFFFF"
@@ -19,8 +19,9 @@ export default component$(() => {
         </a>
         <p class="font-serif text-sm md:text-base uppercase mb-3">Kontakt</p>
         
-        <p class="font-serif text-sm md:text-base mb-1">Tlf: 22 29 56 00</p>
-        <p class="font-serif text-sm md:text-base">Mail: sebastianhadi62@gmail.com</p>
+        <p class="font-serif text-sm md:text-base mb-2"> <a href="tel:+4522295600">Tlf: 22 29 56 00</a> </p>
+        <p class="font-serif text-sm md:text-base mb-2"> <a href="mailto:sebastianhadi62@gmail.com">Mail: sebastianhadi62@gmail.com</a> </p>
+        <p class="font-serif text-sm md:text-base mb-2"> <a href="https://www.linkedin.com/in/sebastian-bagger-hadi/details/skills/">LinkedIn</a> </p>
 
 
         <div class="w-full pt-4">

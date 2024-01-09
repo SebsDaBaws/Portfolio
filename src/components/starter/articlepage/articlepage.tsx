@@ -52,21 +52,17 @@ export default component$(
               </nobr>
               */}
             </div>
-            <h1 class="text-4xl font-bold font-serif pt-1.5 md:pt-3 pb-3 px-3.5 self-start lg:pl-40 max-w-5xl 2xl:max-w-6xl 2xl:pl-72">
+            <h1 class="text-4xl text-customBlue font-bold font-serif flex pt-1.5 md:pt-3 pb-3 px-3.5 max-w-5xl 2xl:max-w-6xl 2xl:pl-96">
               {headline2}
             </h1>
-            <h2 class="font-serif pt-1 pb-6 px-3.5 self-start lg:pl-40 break-normal max-w-5xl 2xl:max-w-6xl 2xl:pl-72">
+            <h2 class="font-serif pt-1 pb-6 px-3.5 flex break-normal max-w-5xl 2xl:max-w-6xl 2xl:pl-72">
               {teaser}
             </h2>
-            <div
-              class={
-                "relative flex w-full overflow-hidden sm:px-10 md:px-10 lg:px-10 2xl:pl-10"
-              }
-            >
-              {imageUrl !== null ? <img src={imageUrl} alt="" /> : null}
-            </div>
-            <div class="text-xs font-sans-serif pt-1 px-3.5 self-start lg:pl-40 break-normal 2xl:pl-72">
-              {caption}
+
+            <div class="relative flex w-full overflow-hidden px-5 sm:px-10 md:px-10 lg:px-80 2xl:px-40">
+              {imageUrl !== null ? (
+                <img src={imageUrl} alt="" class="rounded-md overflow-hidden" />
+              ) : null}
             </div>
 
             <div class="w-full pt-4">
@@ -100,6 +96,10 @@ export default component$(
             </div>
             */}
 
+            <div class="prose font-serif flex px-3.5 pt-4 font-bold text-2xl">
+              {caption}
+            </div>
+
             <div class="prose font-serif flex px-3.5">
               <p dangerouslySetInnerHTML={bodyText} />
             </div>
@@ -109,11 +109,9 @@ export default component$(
             </div>
 
             <div class="w-full block sm:hidden">
-            <hr class="h-0.5 my-4 bg-gray-400 border-0 mx-2 sm:mx-0" />
-          </div>
+              <hr class="h-0.5 my-4 bg-gray-400 border-0 mx-2 sm:mx-0" />
+            </div>
           </section>
-
-          
 
           <div>
             <Emner />

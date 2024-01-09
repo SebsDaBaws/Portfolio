@@ -2,6 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import { type DocumentHead } from "@builder.io/qwik-city";
 import { InfoButton } from "~/components/starter/icons/info_button";
 
+
 const tags = [
   { label: "Forældreskab", id: "https://jyllands-posten.dk/tags/emneord.jp.dk,2017:foraeldreskab" },
   { label: "Familieliv", id: "https://jyllands-posten.dk/tags/emneord.jp.dk,2017:familieliv" },
@@ -16,7 +17,7 @@ export default component$(() => {
   return (
     <div>
       <h1 class="justify-start uppercase flex px-6 font-semibold text-lg 2xl:px-44">
-        Emner du følger
+        Sebastian Bagger Hadi
       </h1>
       <div class="w-full invisible md:visible">
         <hr class="h-1 my-8 md:my-12 bg-black border-0" />
@@ -26,14 +27,14 @@ export default component$(() => {
         <div class="md:col-span-3">
           {/* Desktop */}
           <div class="font-serif text-2xl font-black break-normal max-w-2xl px-4 md:px-6 justify-start hidden md:block">
-            Emner du følger
+            Portfolio
           </div>
           {/* Mobile */}
           <div class="font-serif text-2xl font-bold break-normal max-w-2xl text-center px-4 md:px-6 justify-start block md:hidden">
-            Nyt fra emner du følger
+            Portfolio
           </div>
           <div class="px-4 md:px-6 justify-start text-center md:text-left pb-3 md:pb-0">
-            Seneste 48 timer
+            gg
           </div>
         </div>
 
@@ -48,7 +49,7 @@ export default component$(() => {
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
                   <time>15:47 |</time>
-                  <nobr class="text-primary font-semibold uppercase">
+                  <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
                     Forældreskab{" "}
                   </nobr>
@@ -81,7 +82,7 @@ export default component$(() => {
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
                   <time>15:47 |</time>
-                  <nobr class="text-primary font-semibold uppercase">
+                  <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
                     Krigen i Ukraine{" "}
                   </nobr>
@@ -112,7 +113,7 @@ export default component$(() => {
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
                   <time>15:47 |</time>
-                  <nobr class="text-primary font-semibold uppercase">
+                  <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
                     Sport{" "}
                   </nobr>
@@ -143,7 +144,7 @@ export default component$(() => {
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
                   <time>15:47 |</time>
-                  <nobr class="text-primary font-semibold uppercase">
+                  <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
                     Politik{" "}
                   </nobr>
@@ -168,10 +169,10 @@ export default component$(() => {
 
           <div class="lg:px-10 items-center py-4 text-center md:text-right">
             <button
-              class="bg-transparent hover:bg-secondary text-secondary hover:text-white md:py-1.5 md:px-10 py-2.5 px-24 border 
-            border-secondary hover:border-transparent rounded uppercase text-xs font-semibold"
+              class="bg-transparent hover:bg-customBlue text-customBlue hover:text-white md:py-1.5 md:px-10 py-2.5 px-24 border 
+            border-customBlue hover:border-transparent rounded uppercase text-xs font-semibold"
             >
-              <a href="">Indlæs flere artikler</a>
+              <a href="">Se alle projekter</a>
             </button>
           </div>
         </ul>
@@ -198,9 +199,11 @@ export default component$(() => {
           <div class="font-serif text-2xl font-bold break-normal max-w-2xl px-4 md:px-6 pt-10 md:pt-1 sm:pb-3 block md:hidden">
             <p class="flex flex-wrap gap-x-2 items-center justify-center">
               Emner du følger
+               {/*
               <a href="">
                 <InfoButton />
               </a>
+              */}
             </p>
           </div>
 
@@ -225,8 +228,8 @@ export default component$(() => {
                 </a>
 
                 <button
-                  class="bg-secondary flex md:flex-row hover:bg-primary text-white hover:text-white 
-                text-xs py-2 md:py-1 px-3 border border-secondary hover:border-transparent rounded uppercase tracking-widest no-underline"
+                  class="bg-white flex md:flex-row hover:bg-customBlue text-customBlue hover:text-white 
+                text-xs py-2 md:py-1 px-3 border border-customBlue hover:border-transparent rounded uppercase tracking-widest no-underline"
                 >
                   Følger
                 </button>
@@ -238,8 +241,8 @@ export default component$(() => {
           </div>
           <div class="lg:px-8 py-4 text-center md:text-right">
             <a
-              class="bg-transparent hover:bg-secondary text-secondary hover:text-white md:py-1.5 md:px-10 py-2.5 px-16 border 
-            border-secondary hover:border-transparent rounded uppercase text-xs font-semibold"
+              class="bg-transparent hover:bg-customBlue text-customBlue hover:text-white md:py-1.5 md:px-10 py-2.5 px-16 border 
+            border-customBlue hover:border-transparent rounded uppercase text-xs font-semibold"
               href="/pages/tag_page"
             >
               Indlæs flere emner du følger

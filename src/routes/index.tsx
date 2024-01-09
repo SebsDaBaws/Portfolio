@@ -8,13 +8,13 @@ export default component$(() => {
     <>
       <Articlepage
         id="15275559"
-        headline="Forstandere taler om, at der er noget, forældrene har glemt"
-        headline2="Velkommen til min portfolio"
-        teaser="this is good"
+        headline=""
+        headline2="Sebastian Bagger Hadi"
+        teaser="Webudvikler med stor interesse for frontend-udvikling og UX/UI"
         imageUrl="src/Pictures/SBH.jpg"
-        caption="test"
+        caption="Om mig"
         bodyText={
-          '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\n'
+          '<p>26 årig webudvikler, med pulsen på de nyeste teknologier og trends indenfor faget, herunder ChatGPT, GitHub CoPilot og generelt AI. Generelt set har jeg en stor interesse for frontend-udvikling, brugeroplevelse, UI og generelt teknologi. Som person er jeg glad, smilende, og altid åben overfor nye opgaver og idéer. </p>\n'
         }
         authors={[
           {
@@ -24,8 +24,8 @@ export default component$(() => {
           },
         ]}
         tags={[
-          { label: "Forældreskab", id: "emneord.jp.dk,2017:foraeldreskab" },
-          { label: "Familieliv", id: "emneord.jp.dk,2017:familieliv" },
+          { label: "GitHub", id: "emneord.jp.dk,2017:foraeldreskab" },
+          { label: "LinkedIn", id: "emneord.jp.dk,2017:familieliv" },
           { label: "Efterskole", id: "emneord.jp.dk,2017:efterskole" },
           {
             label: "Børneopdragelse",
