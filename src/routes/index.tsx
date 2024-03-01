@@ -24,12 +24,12 @@ export default component$(() => {
           },
         ]}
         tags={[
-          { label: "GitHub", id: "emneord.jp.dk,2017:foraeldreskab" },
-          { label: "LinkedIn", id: "emneord.jp.dk,2017:familieliv" },
-          { label: "Efterskole", id: "emneord.jp.dk,2017:efterskole" },
+          { label: "GitHub", id: "GitHub" },
+          { label: "LinkedIn", id: "LinkedIn" },
+          { label: "test1", id: "test1" },
           {
-            label: "Børneopdragelse",
-            id: "emneord.jp.dk,2017:boerneopdragelse",
+            label: "test2",
+            id: "test2",
           },
         ]}
       />

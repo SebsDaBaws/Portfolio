@@ -4,10 +4,10 @@ import { InfoButton } from "../icons/info_button";
 const tags = [
   { label: "GitHub", id: "https://github.com/SebsDaBaws" },
   { label: "LinkedIn", id: "https://www.linkedin.com/in/sebastian-bagger-hadi/" },
-  { label: "Efterskole", id: "https://jyllands-posten.dk/tags/emneord.jp.dk,2017:efterskole" },
+  { label: "test1", id: "" },
   {
-    label: "Børneopdragelse",
-    id: "https://jyllands-posten.dk/tags/emneord.jp.dk,2017:boerneopdragelse",
+    label: "test2",
+    id: "",
   },
 ];
 

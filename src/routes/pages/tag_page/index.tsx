@@ -48,16 +48,16 @@ export default component$(() => {
             <a class="flex" href="/">
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
-                  <time>15:47 |</time>
+                  <time>2023 |</time>
                   <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
-                    Forældreskab{" "}
+                    React{" "}
                   </nobr>
                 </div>
 
                 <div class="flex flex-row justify-between border-r font-serif pr-5 font-semibold">
                   {" "}
-                  Forstandere taler om, at der er noget, forældrene har glemt{" "}
+                  Eksempel 1{" "}
                 </div>
               </div>
               <img
@@ -81,16 +81,15 @@ export default component$(() => {
             >
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
-                  <time>15:47 |</time>
+                  <time>2023 |</time>
                   <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
-                    Krigen i Ukraine{" "}
+                    Qwik - TypeScript{" "}
                   </nobr>
                 </div>
                 <div class="flex flex-row justify-between border-r font-serif pr-5 font-semibold">
                   {" "}
-                  Manglen på granater er ved at være mærkbar på begge sider i
-                  Ukraine{" "}
+                  Eksempel 2{" "}
                 </div>
               </div>
               <img
@@ -112,16 +111,15 @@ export default component$(() => {
             >
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
-                  <time>15:47 |</time>
+                  <time>2023 |</time>
                   <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
-                    Sport{" "}
+                    Remix{" "}
                   </nobr>
                 </div>
                 <div class="flex flex-row justify-between border-r font-serif pr-5 font-semibold">
                   {" "}
-                  Lige netop dette nederlag gjorde ekstra ondt for Kent Nielsen
-                  og co.{" "}
+                  Eksempel 3{" "}
                 </div>
               </div>
               <img
@@ -143,16 +141,15 @@ export default component$(() => {
             >
               <div class="grow">
                 <div class="pb-2 md:pb-1 text-xs">
-                  <time>15:47 |</time>
+                  <time>2023 |</time>
                   <nobr class="text-customBlue font-semibold uppercase">
                     {" "}
-                    Politik{" "}
+                    Unity - C#{" "}
                   </nobr>
                 </div>
                 <div class="flex flex-row justify-between border-r font-serif pr-5 font-semibold">
                   {" "}
-                  »Hvis Jon Stephensen havde trukket 5 mio. kr. ud, vil jeg tro,
-                  at bestyrelsen var gået videre«{" "}
+                  Eksempel 4{" "}
                 </div>
               </div>
               <img
