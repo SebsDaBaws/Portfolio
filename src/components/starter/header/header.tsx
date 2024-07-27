@@ -8,7 +8,7 @@ export default component$(() => {
       <div class="mx-auto flex max-w-screen-xl items-center md:py-8 md:px-5 px-2 md:pt-16 pt-4">
         
         <div class="basis-64 hidden md:block text-xs font-semibold tracking-wide uppercase pr-1">
-          <p>Webudvikler med stor interesse indenfor frontend-udvikling og UX/UI</p>
+          <p>Webudvikler med stor interesse for frontend-udvikling og UX/UI</p>
         </div>
 
         <div class="flex grow md:justify-center items-start lg:pl-20">

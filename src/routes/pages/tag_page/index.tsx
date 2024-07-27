@@ -1,6 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { type DocumentHead } from "@builder.io/qwik-city";
 import { InfoButton } from "~/components/starter/icons/info_button";
+import Articlepage from "~/components/starter/articlepage/articlepage";
+
 
 
 const tags = [
@@ -42,6 +44,7 @@ export default component$(() => {
           <div class="w-full block md:hidden">
             <hr class="h-1 my-1 bg-gray-400 border-0 mx-2" />
           </div>
+          
 
           <li class="py-4 mx-4">
             {/* Article "id": 15275559 */}
