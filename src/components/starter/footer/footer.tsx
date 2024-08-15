@@ -27,7 +27,7 @@ export default component$(() => {
         <div class="w-full pt-4">
               <hr class="h-0.5 mt-4 mb-4 bg-black border-2 mx-2 md:mx-0" />
             </div>
-        <p class="font-serif text-sm md:text-base">© Sebastian Bagger Hadi 2023</p>
+        <p class="font-serif text-sm md:text-base">© Sebastian Bagger Hadi 2024</p>
         
       </div>
     </footer>

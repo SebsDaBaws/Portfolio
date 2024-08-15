@@ -71,8 +71,16 @@ export default component$(() => {
           <div class="font-serif text-2xl font-bold break-normal max-w-2xl text-center px-4 md:px-6 justify-start block md:hidden">
             
           </div>
-          <div class="px-4 md:px-6 justify-start text-center md:text-left pb-3 md:pb-0">
-            Projekter
+        
+          <div class="md:grid md:grid-cols-12 md:divide-x md:divide-gray-400 text-lg md:text-lg font-bold break-normal max-w-2xl pt-10 px-4 md:px-6 justify-start uppercase text-customBlue">
+            <p class="flex flex-wrap gap-x-2 items-center sm:pb-2">
+              Projekter
+             {/*<Starter 
+              <a href="/">
+                <InfoButton />
+              </a>
+              />*/}
+            </p>
           </div>
         </div>
 

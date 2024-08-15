@@ -18,7 +18,7 @@ export default component$(() => {
         <div class="md:col-span-3">
           <div class="text-lg md:text-lg font-bold break-normal max-w-2xl px-4 md:px-6 justify-start uppercase text-customBlue">
             <p class="flex flex-wrap gap-x-2 items-center sm:pb-2">
-              Portfolio
+              Følg mig på:
              {/*<Starter 
               <a href="/">
                 <InfoButton />
